@@ -72,3 +72,40 @@
     top: 20%;
 
 }
+
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 20%;
+    flex: 3;
+    
+}
+.sidebarImage{
+    height: 150px;
+    width: 80%;
+}
+.sidebarItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.sidebarList {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarIcon{
+    padding-right: 15px;
+    font-size: 16px;
+}
