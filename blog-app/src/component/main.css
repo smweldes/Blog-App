@@ -37,10 +37,38 @@
     border-radius: 50%;
     object-fit: cover;
     
+    
 }
 
 .topSearch{
     margin-right: 20px;
     margin-left: 15px;
     cursor: pointer;
+}
+.h-title{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    flex-direction: column;
+}
+.h-image{
+    width: 100%;
+    margin-top: 80px;
+    object-fit: cover;
+    /* height: 450px; */
+}
+.h-title-sm{
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 18%;
+}
+.h-title-lg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    position: absolute;
+    top: 20%;
+
 }
