@@ -3,6 +3,7 @@ import './main.css'
 function Sidebar() {
     return (
         <div className="sidebar">
+            <div className="sidebar-wrapper">
             <div className="sidebarItem">
                  <span className="sidebarTitle">ABOUT ME</span>
                  <img 
@@ -36,7 +37,7 @@ function Sidebar() {
                 <i className="sidebarIcon fab fa-instagram"></i>
                 </div>
             </div>
-            
+            </div>
         </div>
     )
 }
