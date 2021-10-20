@@ -8,12 +8,18 @@
     justify-content: center;
     align-items: center;
 }
+.topLeft{
+    margin-left: 10px;
+}
 
 .topLeft, .topRight {
     flex: 3;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    right: 10px;
+    flex-direction: row;
+    
 }
 
 .topCenter {
@@ -26,9 +32,10 @@
 
 .topListItem {
     display: flex;
-    /* align-items: center; */
+   
     justify-content: center;
     margin-right: 50px;
+   
 }
 
 .topImage{
@@ -337,3 +344,129 @@
       margin-top:  20px;
       cursor: pointer;
   }
+
+  .login{
+      background-image: url("https://566259-1826367-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/turkey-3048299_1920.jpg");
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .login-container{
+      width: 20%;
+      min-height:40%;
+      background-color: #fff;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      border-radius: 1px;
+
+      
+  }
+  .loginForm{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      text-align: left;
+  }
+  .loginTitle{
+      /* color: white; */
+      font-size: 30px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 400;
+  }
+
+  .loginForm > label {
+      width: 50px;
+      margin-top: 10px;
+  }
+  .loginForm > input {
+     width: 100%;
+     height: 30px;
+     margin: 15px 0;
+     border-radius: 1px;
+     border:none;
+     background-color: rgb(240, 240, 240);
+     padding:2px;
+  }
+  .loginButton{
+      background-color: rgb(62, 146, 135);
+      border-radius: 1px;
+      margin-top: 20px;
+      cursor: pointer;
+      padding:10px;
+      color: white;
+      border: none;
+      box-shadow: 0px 0px 10px 0px rgba(17, 29, 43, 0.466);
+  }
+  .loginButton:hover{
+ 
+    box-shadow: 0px 0px 1px 0px rgba(46, 69, 95, 0.342);
+}
+  .loginRegisterButton{
+      position: absolute;
+      top: 10%;
+      right: 20px;
+      background-color: teal;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 80px;
+      height: 30px;
+      cursor: pointer;
+      color: white;
+  }
+  .register{
+    background-image: url("https://study.com/cimages/multimages/16/registering_for_college_classes.jpeg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.registerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registerTitle{
+    /* color: white; */
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.registerForm > label {
+    width: 50px;
+    margin-top: 10px;
+}
+.registerForm > input {
+   width: 200px;
+   height: 30px;
+   margin-top: 10px;
+   border-radius: 10px;
+}
+.registerButton{
+    background-color: teal;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background-color: palevioletred;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
