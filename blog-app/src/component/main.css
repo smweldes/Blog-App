@@ -274,3 +274,66 @@
       justify-content: center;
       
   }
+
+  .setting{
+      display: flex;
+  }
+  .settingWrapper{
+      padding: 20px;
+      flex: 9;
+  }
+  .settingTitle{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+  }
+  .settingUpdateTitle{
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: lightcoral;
+  }
+  .settingDeleteTitle{
+      color: red;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .settingForm{
+      display: flex;
+      /* align-items: center; */
+      margin: 10px 0;
+      flex-direction: column;
+      
+  }
+  .settingPP > img {
+      width: 70px;
+      height: 70px;
+      border-radius: 20px;
+      object-fit: cover;
+  }
+  .settingForm > label {
+      font-size: 20px;
+      margin-top: 20px;
+  }
+
+  .settingForm> input{
+      color: grey;
+      margin: 10px 0;
+      height: 30px;
+      border: none;
+      border-bottom: 1px solid;
+  }
+  .settingSubmit{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 40px;
+      color: white;
+      background-color: green;
+      font-size: 20px;
+      border-radius: 10px;
+      border: none;
+      margin-top:  20px;
+      cursor: pointer;
+  }

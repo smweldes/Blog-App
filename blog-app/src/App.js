@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './component/Home';
+import Setting from './component/Setting';
 import TopBar from './component/TopBar';
 import Write from './component/Write';
 
@@ -8,7 +9,8 @@ function App() {
     <div>
       <TopBar/>
       {/* <Home/> */}
-      <Write/>
+      {/* <Write/> */}
+      <Setting/>
       
     </div>
   );

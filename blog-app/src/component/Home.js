@@ -1,6 +1,7 @@
 import Header from './Header';
 import './main.css';
 import Posts from './Posts';
+import Setting from './Setting';
 import Sidebar from './Sidebar';
 
 
@@ -12,7 +13,7 @@ function Home() {
             <Posts />
             <Sidebar />
             </div>
-            
+                        
         </div>
     )
 }
